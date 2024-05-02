@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18548116-472A-4928-B606-5EE804AEC171}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Accounting.App</RootNamespace>
+    <AssemblyName>Accounting.App</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\Accounting.DataLayer\bin\Debug\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\Accounting.DataLayer\bin\Debug\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Base, Version=2014.3.0.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a" />
+    <Reference Include="Stimulsoft.Report, Version=2014.3.0.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL" />
+    <Reference Include="Stimulsoft.Report.Win, Version=2014.3.0.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Report.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordForm.Designer.cs">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\FrmCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\FrmCustomers.Designer.cs">
+      <DependentUpon>FrmCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddOrEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddOrEdit.Designer.cs">
+      <DependentUpon>FrmAddOrEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPayment.Designer.cs">
+      <DependentUpon>NewPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReciveReportFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReciveReportFrm.Designer.cs">
+      <DependentUpon>ReciveReportFrm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\FrmCustomers.resx">
+      <DependentUpon>FrmCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddOrEdit.resx">
+      <DependentUpon>FrmAddOrEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPayment.resx">
+      <DependentUpon>NewPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReciveReportFrm.resx">
+      <DependentUpon>ReciveReportFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371475930_filenew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371475973_document_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476007_Close_Box_Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476049_fork3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476070_self1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476120_fingerprint_reader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476143_deliverables.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476193_printers-&amp;-Faxes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476276_Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476342_Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476368_Synchronize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476394_refresh red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476468_preferences-contact-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371476499_todo-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\servicesCosts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1370791030_credit-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Accounting.DataLayer\Accounting.DataLayer.csproj">
+      <Project>{2d2b1a0a-3a44-45a9-8da0-91552dcd0a59}</Project>
+      <Name>Accounting.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Accounting.ViewModel\Accounting.ViewModel.csproj">
+      <Project>{8eb3032a-7625-4401-9ed0-d836989c506b}</Project>
+      <Name>Accounting.ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-customers-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-customers-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-customers-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-payment-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-payment-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-online-payment-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-customers-50 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-money-transfer-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-payment-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-receive-cash-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-payment2-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-print-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-refresh-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-refresh-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_withText.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Walpaper_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Walpaper_00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Walpaper_wh_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginPage_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginPage no glow_00000_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\changepassbtn_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginbtn_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Change2_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginPage no glow user pass_00000_00000_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginPage_nocadr_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginFormDarker_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChangePassword_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChangePassword_00000new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login Form UpSide_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login Form UpSideNEWWW_00000_00000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainFormBg_00000.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

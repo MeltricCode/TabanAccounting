@@ -1,0 +1,64 @@
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Accounting.App.exe.config
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Accounting.App.exe
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Accounting.App.pdb
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.Properties.Resources.resources
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.exe
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.pdb
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.Form1.resources
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.FrmCustomers.resources
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Accounting.DataLayer.dll
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Accounting.DataLayer.pdb
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Accounting.DataLayer.dll.config
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.csproj.CopyComplete
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.FrmAddOrEdit.resources
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.NewPayment.resources
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Accounting.ViewModel.dll
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Accounting.ViewModel.pdb
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.ReciveReportFrm.resources
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.LoginForm.resources
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\obj\Debug\Accounting.App.ChangePasswordForm.resources
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Stimulsoft.Base.dll
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Stimulsoft.Report.dll
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Stimulsoft.Base.xml
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Stimulsoft.Report.xml
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Stimulsoft.Controls.Win.dll
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Stimulsoft.Controls.dll
+C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Stimulsoft.Controls.xml
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\Accounting.App.exe.config
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\Accounting.App.exe
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\Accounting.App.pdb
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\Accounting.DataLayer.dll
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\Accounting.ViewModel.dll
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\EntityFramework.dll
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\EntityFramework.SqlServer.dll
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\Stimulsoft.Controls.Win.dll
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\Stimulsoft.Controls.dll
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\Accounting.DataLayer.pdb
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\Accounting.DataLayer.dll.config
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\Accounting.ViewModel.pdb
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\EntityFramework.xml
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\EntityFramework.SqlServer.xml
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\Stimulsoft.Base.xml
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\Stimulsoft.Report.xml
+D:\Taban Archive\Accounting\Accounting.App\bin\Debug\Stimulsoft.Controls.xml
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounting.App.ChangePasswordForm.resources
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounting.App.Form1.resources
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounting.App.FrmCustomers.resources
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounting.App.FrmAddOrEdit.resources
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounting.App.LoginForm.resources
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounting.App.NewPayment.resources
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounting.App.Properties.Resources.resources
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounting.App.ReciveReportFrm.resources
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounting.App.csproj.GenerateResource.cache
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounting.App.csproj.CoreCompileInputs.cache
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounting.App.exe
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounting.App.pdb
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounting.App.csproj.AssemblyReference.cache
+D:\Taban Archive\Accounting\Accounting.App\obj\Debug\Accounti.AC66B4A9.Up2Date

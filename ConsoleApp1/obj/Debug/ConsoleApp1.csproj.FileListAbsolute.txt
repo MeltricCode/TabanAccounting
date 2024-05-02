@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\bin\Debug\Accounting.DataLayer.dll
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\bin\Debug\Accounting.DataLayer.pdb
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\bin\Debug\Accounting.DataLayer.dll.config
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\bin\Debug\Accounting.ViewModel.dll
+C:\Users\Administrator\Desktop\vs\Accounting\ConsoleApp1\bin\Debug\Accounting.ViewModel.pdb

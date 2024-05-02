@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Taban Archive\\Accounting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2B1A0A-3A44-45A9-8DA0-91552DCD0A59}|Accounting.DataLayer\\Accounting.DataLayer.csproj|d:\\taban archive\\accounting\\accounting.datalayer\\services\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2B1A0A-3A44-45A9-8DA0-91552DCD0A59}|Accounting.DataLayer\\Accounting.DataLayer.csproj|solutionrelative:accounting.datalayer\\services\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2B1A0A-3A44-45A9-8DA0-91552DCD0A59}|Accounting.DataLayer\\Accounting.DataLayer.csproj|d:\\taban archive\\accounting\\accounting.datalayer\\context\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2B1A0A-3A44-45A9-8DA0-91552DCD0A59}|Accounting.DataLayer\\Accounting.DataLayer.csproj|solutionrelative:accounting.datalayer\\context\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2B1A0A-3A44-45A9-8DA0-91552DCD0A59}|Accounting.DataLayer\\Accounting.DataLayer.csproj|d:\\taban archive\\accounting\\accounting.datalayer\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2B1A0A-3A44-45A9-8DA0-91552DCD0A59}|Accounting.DataLayer\\Accounting.DataLayer.csproj|solutionrelative:accounting.datalayer\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18548116-472A-4928-B606-5EE804AEC171}|Accounting.App\\Accounting.App.csproj|d:\\taban archive\\accounting\\accounting.app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18548116-472A-4928-B606-5EE804AEC171}|Accounting.App\\Accounting.App.csproj|solutionrelative:accounting.app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18548116-472A-4928-B606-5EE804AEC171}|Accounting.App\\Accounting.App.csproj|d:\\taban archive\\accounting\\accounting.app\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18548116-472A-4928-B606-5EE804AEC171}|Accounting.App\\Accounting.App.csproj|solutionrelative:accounting.app\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18548116-472A-4928-B606-5EE804AEC171}|Accounting.App\\Accounting.App.csproj|d:\\taban archive\\accounting\\accounting.app\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18548116-472A-4928-B606-5EE804AEC171}|Accounting.App\\Accounting.App.csproj|solutionrelative:accounting.app\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18548116-472A-4928-B606-5EE804AEC171}|Accounting.App\\Accounting.App.csproj|d:\\taban archive\\accounting\\accounting.app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18548116-472A-4928-B606-5EE804AEC171}|Accounting.App\\Accounting.App.csproj|solutionrelative:accounting.app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18548116-472A-4928-B606-5EE804AEC171}|Accounting.App\\Accounting.App.csproj|d:\\taban archive\\accounting\\accounting.app\\frmaddoredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18548116-472A-4928-B606-5EE804AEC171}|Accounting.App\\Accounting.App.csproj|solutionrelative:accounting.app\\frmaddoredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "D:\\Taban Archive\\Accounting\\Accounting.DataLayer\\Services\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Accounting.DataLayer\\Services\\CustomerRepository.cs",
+              "ToolTip": "D:\\Taban Archive\\Accounting\\Accounting.DataLayer\\Services\\CustomerRepository.cs",
+              "RelativeToolTip": "Accounting.DataLayer\\Services\\CustomerRepository.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAmwEAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T17:12:59.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "D:\\Taban Archive\\Accounting\\Accounting.DataLayer\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "Accounting.DataLayer\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "D:\\Taban Archive\\Accounting\\Accounting.DataLayer\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "Accounting.DataLayer\\Repositories\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T17:12:22.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Taban Archive\\Accounting\\Accounting.DataLayer\\Context\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Accounting.DataLayer\\Context\\UnitOfWork.cs",
+              "ToolTip": "D:\\Taban Archive\\Accounting\\Accounting.DataLayer\\Context\\UnitOfWork.cs",
+              "RelativeToolTip": "Accounting.DataLayer\\Context\\UnitOfWork.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T17:11:18.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\Taban Archive\\Accounting\\Accounting.App\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Accounting.App\\LoginForm.cs",
+              "ToolTip": "D:\\Taban Archive\\Accounting\\Accounting.App\\LoginForm.cs",
+              "RelativeToolTip": "Accounting.App\\LoginForm.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswCAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T17:08:22.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmAddOrEdit.cs",
+              "DocumentMoniker": "D:\\Taban Archive\\Accounting\\Accounting.App\\FrmAddOrEdit.cs",
+              "RelativeDocumentMoniker": "Accounting.App\\FrmAddOrEdit.cs",
+              "ToolTip": "D:\\Taban Archive\\Accounting\\Accounting.App\\FrmAddOrEdit.cs",
+              "RelativeToolTip": "Accounting.App\\FrmAddOrEdit.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAAwJAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T17:03:41.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Taban Archive\\Accounting\\Accounting.App\\Form1.cs",
+              "RelativeDocumentMoniker": "Accounting.App\\Form1.cs",
+              "ToolTip": "D:\\Taban Archive\\Accounting\\Accounting.App\\Form1.cs",
+              "RelativeToolTip": "Accounting.App\\Form1.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T17:02:55.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Taban Archive\\Accounting\\Accounting.App\\Form1.cs",
+              "RelativeDocumentMoniker": "Accounting.App\\Form1.cs",
+              "ToolTip": "D:\\Taban Archive\\Accounting\\Accounting.App\\Form1.cs [Design]",
+              "RelativeToolTip": "Accounting.App\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T17:02:50.78Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\Taban Archive\\Accounting\\Accounting.App\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Accounting.App\\LoginForm.cs",
+              "ToolTip": "D:\\Taban Archive\\Accounting\\Accounting.App\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Accounting.App\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T17:08:17.761Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

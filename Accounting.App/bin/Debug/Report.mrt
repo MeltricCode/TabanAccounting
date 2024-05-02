@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="1">
+      <DT Ref="2" type="DataTableSource" isKey="true">
+        <Alias>DT</Alias>
+        <Columns isList="true" count="6">
+          <value>CustomerId,System.String</value>
+          <value>FullName,System.String</value>
+          <value>Amount,System.String</value>
+          <value>DateTime,System.String</value>
+          <value>SumAmountRecive,System.String</value>
+          <value>SumAmountPay,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <IsCloud>False</IsCloud>
+        <Name>DT</Name>
+        <NameInSource>DT</NameInSource>
+      </DT>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <HeaderBand1 Ref="4" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.2,2.22,1.5</ClientRectangle>
+          <Components isList="true" count="1">
+            <Image1 Ref="5" type="Image" isKey="true">
+              <AspectRatio>True</AspectRatio>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.3,-0.1,1.4,1.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Image>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</Image>
+              <Name>Image1</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+            </Image1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </HeaderBand1>
+        <HeaderDT Ref="6" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2.1,2.22,0.3</ClientRectangle>
+          <Components isList="true" count="3">
+            <HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_0 Ref="7" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,0.7,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_0</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>تاریخ تراکنش</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_0>
+            <HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_02 Ref="8" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.7,0,0.7,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_02</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>مبلغ</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_02>
+            <HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_04 Ref="9" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.4,0,0.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_04</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>طرف حساب</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_04>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderDT</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </HeaderDT>
+        <DataDT Ref="10" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,2.8,2.22,0.3</ClientRectangle>
+          <Components isList="true" count="3">
+            <DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_0 Ref="11" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,0.7,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_0</Name>
+              <Page isRef="3" />
+              <Parent isRef="10" />
+              <Text>{DT.DateTime}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_0>
+            <DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_02 Ref="12" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.7,0,0.7,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_02</Name>
+              <Page isRef="3" />
+              <Parent isRef="10" />
+              <Text>{DT.Amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_02>
+            <DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_04 Ref="13" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.4,0,0.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_04</Name>
+              <Page isRef="3" />
+              <Parent isRef="10" />
+              <Text>{DT.FullName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_04>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>DT</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataDT</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataDT>
+        <FooterBand1 Ref="14" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,3.5,2.22,0.9</ClientRectangle>
+          <Components isList="true" count="6">
+            <Text3 Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.2,0.5,1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="3" />
+              <Parent isRef="14" />
+              <Text>{DT.SumAmountRecive}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text3>
+            <Text4 Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.2,0.3,1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="3" />
+              <Parent isRef="14" />
+              <Text>مجموع دریافتی ها</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text4>
+            <Text5 Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.5,1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="3" />
+              <Parent isRef="14" />
+              <Text>{DT.SumAmountPay}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text5>
+            <Text6 Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.3,1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="3" />
+              <Parent isRef="14" />
+              <Text>مجموع پرداختی ها</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text6>
+            <Text1 Ref="19" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.5,0.8,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="3" />
+              <Parent isRef="14" />
+              <Text>با سپاس از حسن انتخاب شما
+
+
+      </Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text1>
+            <Text2 Ref="20" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.1,0.9,2.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="3" />
+              <Parent isRef="14" />
+              <Text>.</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>FooterBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </FooterBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>5208669573184a9db909576fc49556b7</Guid>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <Name>Page1</Name>
+      <PageHeight>6</PageHeight>
+      <PageWidth>3</PageWidth>
+      <PaperSize>Letter</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="21" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="22" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>1/18/2024 9:43:57 AM</ReportChanged>
+  <ReportCreated>1/17/2024 9:31:26 AM</ReportCreated>
+  <ReportFile>C:\Users\Administrator\Desktop\vs\Accounting\Accounting.App\bin\Debug\Report.mrt</ReportFile>
+  <ReportGuid>62f0ee8ba9bb40239116e62762c025a4</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2014.3.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
